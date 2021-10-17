@@ -1,0 +1,74 @@
+.body{
+    font-family: 'Montserrat', sans-serif;
+}
+/*specific class*/
+.img_responsive{
+	max-width: 100%;
+}
+.hero_image {
+	background: url(1.jpg) no-repeat;
+	-webkit-background-size: cover;
+	background-size: cover;
+	height: 100vh;
+	position: relative;
+}
+
+.hero_wraper {
+	color:white;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+.hero_wraper h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+.form_code .post_code{
+	display: block;
+	width: 80%;
+	margin-left:auto;
+	margin-right:auto;
+	border-radius: 2rem;
+	padding:.6rem;
+	border:none;
+	outline:none;
+
+}
+.form_code button{
+	width:40%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+	background-color: aqua;
+	color:white;
+	border:none;
+	padding:.6rem;
+	margin-top:1rem;
+	border-radius:.3rem;
+}
+.form_code{
+	text-align:center;
+}
+.product{
+	width: 80%;
+	margin-left: auto;
+	margin-right:auto;
+	margin-top:0.2rem;
+	
+
+}
+.product_list_item{
+	float:left;
+	width:32%;
+
+}
+.product_list_item:first-of-type{
+	margin:0;
+}
+@media screen and (max-width: 700px){
+	.product_list_item{
+		float: none;
+	}
+}
+	 
